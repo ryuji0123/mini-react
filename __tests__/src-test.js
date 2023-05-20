@@ -2,15 +2,7 @@
  * @flow
  */
 
-function createElement(type, props, ...children) {
-  return {
-    type,
-    props: {
-      ...props,
-      children,
-    },
-  };
-}
+import { createElement } from '../src';
 
 test('createElement', () => {
   let expected = {
