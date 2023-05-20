@@ -1,0 +1,13 @@
+{
+    "[javascript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "editor.formatOnSave": true,
+    // flow
+    "javascript.validate.enable": false,
+    // prettier
+    "prettier.singleQuote": true,
+    "jest.rootPath": ".",
+}
