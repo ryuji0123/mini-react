@@ -1,0 +1,22 @@
+{
+  "name": "mini-react",
+  "version": "0.0.1",
+  "description": "Build my own React from scratch",
+  "main": "index.js",
+  "repository": "git@github.com:ryuji0123/mini-react.git",
+  "author": "ryuji0123 <rokuda1011@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --silent=false --verbose=true"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@babel/preset-flow": "^7.21.4",
+    "@types/jest": "^29.5.1"
+  }
+}
