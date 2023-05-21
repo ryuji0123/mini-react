@@ -19,3 +19,8 @@ export function createTextElement(text) {
     },
   };
 }
+
+export function render(element, container) {
+  const dom = document.createElement(element.type);
+  container.appendChild(dom);
+}

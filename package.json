@@ -7,16 +7,21 @@
   "author": "ryuji0123 <rokuda1011@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --silent=false --verbose=true"
+    "build": "webpack --watch",
+    "test": "jest --silent=false --verbose=true",
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
     "babel-jest": "^29.5.0",
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
     "@babel/preset-flow": "^7.21.4",
-    "@types/jest": "^29.5.1"
+    "@types/jest": "^29.5.1",
+    "babel-loader": "^9.1.2"
   }
 }
