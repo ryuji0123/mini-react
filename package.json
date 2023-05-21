@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --watch",
-    "test": "jest --silent=false --verbose=true",
+    "test": "jest --silent=false --verbose=true"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",

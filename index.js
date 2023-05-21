@@ -1,3 +1,1 @@
-export function tmp() {
-  console.log('tmp');
-}
+export { createElement } from './src';
